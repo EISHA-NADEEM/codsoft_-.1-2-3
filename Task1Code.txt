@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+   
+.container{
+    max-width: 80vw;
+    background-color: blueviolet;
+}
+.flex{
+    display:flex;
+}
+.items-center1{
+    align-items: center;    
+    margin-left: 14px;
+}
+.justify-between1{
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 13px;
+    font-family: "Oswald", sans-serif;
+}
+.items-center{
+    align-items: center;    
+    margin-left: 14px;
+}
+.justify-between{
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 13px;
+    font-family: "Oswald", sans-serif;
+}
+.demolanding{
+    padding-right: 22px;
+    padding-left: 0;
+font-size: larger;
+font-weight: 900;
+}
+.navbar1{
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    background: linear-gradient(to right, rgb(236, 156, 63), rgb(232, 75, 114), rgb(245, 132, 185));
+ 
+    padding: 13px;
+}
+.bt{
+    color: #880647;
+    border: #f5f3f4;
+    margin: 0 12px;
+}
+.navbar1 li{
+   color: #f5f3f4;
+   height: 20px;
+   list-style: none;
+   margin: 0 12px;
+   border-right: 1px solid rgb(236, 235, 235);
+            padding-right: 10px; 
+            margin-right: 10px; 
+            display: inline-block; }
+   .navbar1 li a{
+       color: black;
+   } 
+.landingpage{
+    padding-right: 22px;
+    padding-left: 0;
+font-size: larger;
+font-weight: 900;
+}
+.navbar2{
+    display: flex;
+    font-family: "Oswald", sans-serif;
+
+    
+}
+.navbar2 li{
+   
+height: 20px;
+list-style: none;
+margin: 0 12px;
+}
+.navbar2 li a{
+    color: black;
+} 
+.libuynow{
+    background-color: coral;
+    border-radius: 3px;
+   
+}
+.section1{
+    background-image: url('img3.png');
+    background-size: cover; 
+      background-position: center; 
+      height: 437px; 
+      width: 100%; 
+      color: #f5f3f4;
+      padding: 129px;
+    }
+
+    .verticalline{
+        border-left: 28px;
+    height: 220px;
+    margin: 0px 157px;
+    padding: 116px;
+    }
+
+.section2{
+    background: linear-gradient(to right, rgb(255, 136, 0), rgb(232, 75, 114), rgb(245, 132, 185));
+    display: flex;
+   color: #fffefe;
+    margin: -26px;
+    padding: 46px;
+justify-content: center;
+text-align: center;
+}
+.btn1{
+    padding: 12px 29px;
+    background: linear-gradient(to right, rgb(255, 136, 0), rgb(232, 75, 114), rgb(245, 132, 185));
+    color: #fff;
+    border: none;
+    border-radius: 43px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.btn2{
+    padding: 12px 29px;
+    background-color: inherit;
+    color: #fff;
+    border: white;
+    border-width: 100px;
+    border-radius: 43px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.section3{
+    background-color: #f5f3f4;
+    padding: 95px;
+    padding-bottom: 6px;
+}
+.topleft{
+width: 50%; 
+}
+.toprigth{
+    width: 50%;
+}
+.img1{
+    padding:32px;
+}
+.A{
+    text-align: left;
+}
+.btn{
+    padding: 12px 29px;
+    background: linear-gradient(to right, rgb(255, 136, 0), rgb(232, 75, 114), rgb(245, 132, 185));
+  
+    color: #fff;
+    border: none;
+    border-radius: 43px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.colomn{
+    flex: 1;
+      padding: 20px; 
+      border: 1px solid #ccc;
+}
+.section4{
+    padding: 95px;
+    
+}
+.pics{
+display:flex;
+flex:1;
+}
+.column{
+    margin:5px;
+}
+
+</style>
+</head>
+<body>
+    <div class="conatiner "> 
+    <header>
+<section>
+<nav1 class="justify-between1">
+    
+    <div class="demolanding">
+       
+        <ul class="navbar1 flex items-center1">    
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+    <li><i class="fa-solid fa-message"></i></li> 
+    <li><i class="fa-brands fa-youtube"></i></li>      
+    
+        
+            <li><i class="fa-solid fa-phone"></i>+12-345-7890</li>
+            <li><i class="fa-solid fa-envelope-open"></i>demolanding@gmail.com</li>
+            <button class="bt">Request a Consule</button>
+        </ul>
+       
+    </div>
+</nav1>
+</section>
+<section>
+    <nav2 class="flex justify-between">
+        <div class="landingpage">Landing Page</div>
+      
+        <ul class="navbar2 flex items-center">
+            <li> <a href="home">Home</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="page">Page</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="testimonials">Testimonials</a></li>
+            <li><a href="contact">Contact </a></li>
+              <li class="libuynow"><a href="buynow">Buy Now</a></li>
+        </ul>
+    </nav2>
+</section>
+</header>
+    <main>
+
+        <section class="section1">
+            <div class="veticalline">
+          <h5>WE ARE CREATIVE</h3>
+          <h1>CREATIVE DIGITAL AGENCY </h1>
+<P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus impedit soluta alias quo, odio possimus sequi eum totam nihil hic.</P>        
+             <button class="btn1">Read More</button>
+             <button class="btn2">Request a Consule</button>
+            </div>
+        </section>
+       
+
+        <section class="section2">
+        <div class="partition1">
+            <h2>
+           LAUNCH BUSINESS
+            </h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, corporis.</p>
+        </div>
+        <div class="partition2"> 
+            <h2>
+                <i class="fa-solid fa-headphones"></i>ONLINE SUPPORT TEAM
+            </h2>
+            <br>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+  
+        </div>
+        <div class="partition3">
+            <h2>
+                <i class="fa-solid fa-timer"></i>TIME MANAGEMENT
+            </h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</div>
+        </section>
+
+        <section3 class="section3 flex">
+            <div class="topleft ">
+                
+                <h1 class="A">ABOUT US</h1>
+                <hr>
+    <h2>15 Years,We passionate about achieving better results for our clients</h2>
+    <p>"Welcome to [Your Company Name], where we're dedicated to transforming your vision into reality. With a focus on innovation and client-centric solutions, we pride ourselves on delivering unparalleled results that exceed expectations. Our team of experts combines creativity with technical expertise to tackle even the most complex challenges head-on. Whether you're looking to launch a new product, enhance your digital presence, or streamline your business operations, we're here to partner with you every step of the way. From tailored strategies to flawless execution, we're committed to driving your success and helping you achieve your goals. Discover the difference of working with [Your Company Name] and unlock your full potential today."</p>
+                <p>Feel free to reach out to us!</p>
+       <button class="btn">READ MORE</button>
+            </div>
+           <div class="topright">
+<div class="img1">
+ 
+    <img src="img1.png" alt="abc" width="500" height="500">
+</div>
+           </div>
+       
+        </section3>
+        <section class="section4">
+<h3>
+    OUR SERVICES
+</h3>
+<hr>
+<div class="pics">
+    <div class="column">
+       
+   
+        <img src="img4.png" alt="User Exeperience" width="250px" height="150px">
+        <h4>User Exeperience</h4>
+      </div>
+      <div class="column">
+   
+     <img src="img5.png" width="250px" height="150px">
+<h4>Creative Design</h4>
+    </div>
+      <div class="column">
+   
+        <img src="img6.png" width="250px" height="150px">
+<h4>Retina Ready</h4>
+    </div>
+    </div>
+        </section>
+    </main>
+<footer></footer>
+</div>
+</body>
+</html>
